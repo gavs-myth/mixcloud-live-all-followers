@@ -1,0 +1,25 @@
+{
+  "name": "mixcloud-live-data",
+  "version": "1.0.0",
+  "description": "Pulls data from Mixcloud API for displaying followers, etc on Mixcloud Live Streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LKHetzel/mixcloud-live-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LKHetzel/mixcloud-live-data/issues"
+  },
+  "homepage": "https://github.com/LKHetzel/mixcloud-live-data#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security"
+  }
+}
