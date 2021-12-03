@@ -1,5 +1,5 @@
 # mixcloud-live-all-followers
-Based on Mixcoud API data parser by LKHetzel, this will provide a dynamic text list of all your Mixcloud followers rather than just the most recent, for use within your dynamic text sources in your livestreaming app
+Based on <a href="https://github.com/LKHetzel/mixcloud-live-data">Mixcoud API data parser by LKHetzel</a>, this will provide a dynamic text list of all your Mixcloud followers rather than just the most recent, for use within your dynamic text sources in your livestreaming app
 # Requirements:
   NodeJS
   For npm dependencies, please view package-lock.json.
@@ -7,7 +7,7 @@ Based on Mixcoud API data parser by LKHetzel, this will provide a dynamic text l
 # How to Use:
   - Clone or extract archive into your NodeJS file system, (default will be: C: > ProgramFiles > nodejs > node_modules > npm >   )
   - Open the .env.template file in any text editor (such as notepad or notepad ++)
-  - Append the following data after the equals signs:
+  - Append the following data after all the equals signs:
   -   USERNAME = your mixcloud username (as displayed in the url after mixcloud/ when viewing your own page - no spaces)
   -   FILE_DIR = the path to the folder on your hard drive that you want to store your dynamic text file for use in your streaming app
   -   FOLLOWER_FILE = the name you want to give the text file (must include .txt file extension, so something like - followers-list.txt - no spaces)
