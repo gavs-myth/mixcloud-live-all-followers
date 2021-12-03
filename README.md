@@ -1,8 +1,8 @@
 # mixcloud-live-all-followers
 Based on <a href="https://github.com/LKHetzel/mixcloud-live-data">Mixcoud API data parser by LKHetzel</a>, this will provide a dynamic text list of all your Mixcloud followers rather than just the most recent, for use within your dynamic text sources in your livestreaming app
 # Requirements:
-  NodeJS
-  For npm dependencies, please view package-lock.json.
+  - NodeJS
+  - For npm dependencies, please view package-lock.json.
  
 # How to Use:
   - Clone or extract archive into your NodeJS file system, (default will be: C: > ProgramFiles > nodejs > node_modules > npm >   )
