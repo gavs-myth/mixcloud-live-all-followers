@@ -11,23 +11,22 @@ console.log("Updating every " + UPDATE_TIME + " seconds");
 
 function getRecentFollower() {
 axios.get(`${API_URL}${USERNAME}/followers/?limit=100`)
-   // axios.get(` D:/sites/Projects/mixcloud-live-data-master/gavsdata.json`)
 
   .then(response => {
       console.log(" inside the function getRecentFollower then statement:- ");
         data = (JSON.parse(JSON.stringify(response.data)));
 
-     // console.log(" the data.data.lenght is :- " + data.data.length);
+     
       name ="";
       for (var i = 0; i <(data.data.length); i++) {
-         // console.log(" in the loop the " +i+"  name is :- " + data.data[i].name);
+         
           name = name + data.data[i].name;
           //this for a new line between the names
           name = name + "\n";
       }
 
 
-          //name = (data.data[0].name);
+          
 
 
     console.log('\n' + "Most Recent Follower is: " + name);
