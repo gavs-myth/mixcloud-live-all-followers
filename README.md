@@ -16,10 +16,10 @@ Based on <a href="https://github.com/LKHetzel/mixcloud-live-data">Mixcoud API da
   - Save the file
   - Rename the file so that the .template is removed, leaving only the filename:  .env
   - Run Node.js or Powershell
-  - Point app to the correct directory by typing the following:   Set-Location -Path "C:\Program Files\nodejs\node_modules\npm\mixcloud-live-data-master"
+  - Point app to the correct directory by typing the following:     Set-Location -Path "C:\Program Files\nodejs\node_modules\npm\mixcloud-live-data-master"
   - press enter
-  - type:   npm istall   then hit enter (this entry should make all the dependencies the script needs, so only needs to be done once, not every time you use it)
-  - Type:   node index.js  then hit enter
+  - type:    npm istall    then hit enter (this entry should make all the dependencies the script needs, so only needs to be done once, not every time you use it)
+  - Type:    node index.js    then hit enter
 
 
   If everything has been set up properly, you should see the log display all your followers, and will keep displaying an updated list every minute, also, your text file should have been created and will be overwritten every minute, showing additional followers almost as soon as they begin to follow you.
